@@ -1,0 +1,15 @@
+* {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.anya-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.anya-img {
+    position: absolute;
+    margin-top: -550px;
+    width: 80%;
+}

@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.get('/anya', (req, res) => {
   res.render("pages/anya")
 });
-  
+
 app.listen(PORT, () => {
   console.log(`Listening on ${ PORT }`)
 });
