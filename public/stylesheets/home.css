@@ -1,0 +1,15 @@
+/* Color Palette
+* Black: #232931
+* Gray: #393E46
+* Teal: #4ECCA3
+* White: #EEEEEE
+*/
+
+body {
+    background-image: linear-gradient(to right, #232931, #393E46);
+    color: #4ECCA3;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}

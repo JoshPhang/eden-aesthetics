@@ -9,7 +9,11 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.get('/', (req, res) => {
-  res.send("Hiya! Waku waku")
+  res.redirect("/home")
+});
+
+app.get('/home', (req, res) => {
+  res.render("pages/home")
 });
 
 app.get('/anya', (req, res) => {
